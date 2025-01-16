@@ -4,7 +4,14 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="d-flex align-items-center justify-content-center min-vh-100">
+    <div class="container text-center">
+        <h1 class="display-4">Vstupní formulář</h1>
+
+        <form method="post">
+            <label for="form_name" class="form-label">Name</label>
+            <input id="form_name" type="text" class="form-control w-50 offset-3" asp-for="InputForm.Name" placeholder="Name" data-toggle="tooltip" title="Name" />
+            <button type="submit" class="btn btn-success m-5">Odeslat</button>
+        </form>
+    </div>
 </div>
