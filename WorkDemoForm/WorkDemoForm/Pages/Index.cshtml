@@ -1,12 +1,12 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = Localizer["title"];
 }
 
 <div class="d-flex align-items-center justify-content-center min-vh-100">
     <div class="container text-center">
-        <h1 class="display-4">Vstupní formulář</h1>
+        <h1 class="display-4">@Localizer["welcome"]</h1>
 
         <form method="post">
             <label for="form_name" class="form-label">Name</label>
