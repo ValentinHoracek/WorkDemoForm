@@ -9,9 +9,51 @@
         <h1 class="display-4">@Localizer["welcome"]</h1>
 
         <form method="post">
-            <label for="form_name" class="form-label">Name</label>
-            <input id="form_name" type="text" class="form-control w-50 offset-3" asp-for="InputForm.Name" placeholder="Name" data-toggle="tooltip" title="Name" />
-            <button type="submit" class="btn btn-success m-5">Odeslat</button>
+            <div class="row text-center">
+                <div class="col-6">
+                    <label for="form_name" class="form-label">@Localizer["name_label"]</label>
+                    <input id="form_name" type="text" class="form-control" asp-for="InputForm.Name" placeholder="@Localizer["name_label"]" data-toggle="tooltip" title="@Localizer["name_label"]" />
+                </div>
+                <div class="col-6">
+                    <label for="form_surname" class="form-label">@Localizer["surname_label"]</label>
+                    <input id="form_surname" type="text" class="form-control" asp-for="InputForm.Surname" placeholder="@Localizer["surname_label"]" data-toggle="tooltip" title="@Localizer["surname_label"]" />
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-6">
+                    <label for="form_personalNumber" class="form-label">@Localizer["personalNumber_label"]</label>
+                    <input id="form_personalNumber" type="text" class="form-control" asp-for="InputForm.PersonalNumber" placeholder="@Localizer["personalNumber_label"]" data-toggle="tooltip" title="@Localizer["personalNumber_label"]" />
+                </div>
+                <div class="col-6">
+                    <label for="form_dateOfBirth" class="form-label">@Localizer["dateOfBirth_label"]</label>
+                    <input id="form_dateOfBirth" type="text" class="form-control" asp-for="InputForm.DateOfBirth" placeholder="@Localizer["dateOfBirth_label"]" data-toggle="tooltip" title="@Localizer["dateOfBirth_label"]" />
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-12">
+                    <label for="form_email" class="form-label">@Localizer["email_label"]</label>
+                    <input id="form_email" type="text" class="form-control" asp-for="InputForm.Email" placeholder="@Localizer["email_label"]" data-toggle="tooltip" title="@Localizer["email_label"]" />
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-6">
+                    <label for="form_gender" class="form-label">@Localizer["gender_label"]</label>
+                    <input id="form_gender" type="text" class="form-control" asp-for="InputForm.Gender" placeholder="@Localizer["gender_label"]" data-toggle="tooltip" title="@Localizer["gender_label"]" />
+                </div>
+                <div class="col-6">
+                    <label for="form_nationality" class="form-label">@Localizer["nationality_label"]</label>
+                    <input id="form_nationality" type="text" class="form-control" asp-for="InputForm.Nationality" placeholder="@Localizer["nationality_label"]" data-toggle="tooltip" title="@Localizer["nationality_label"]" />
+                </div>
+            </div>
+
+            <div class="row text-center">
+
+            </div>
+            
+            <button type="submit" class="btn btn-success m-5">@Localizer["submit"]</button>
         </form>
     </div>
 </div>

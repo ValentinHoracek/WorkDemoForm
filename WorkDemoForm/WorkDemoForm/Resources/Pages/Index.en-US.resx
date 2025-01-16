@@ -117,6 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="dateOfBirth_label" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="email_label" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="error_text" xml:space="preserve">
+    <value>An error occurred while processing your request.</value>
+  </data>
+  <data name="gender_label" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="name_label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="nationality_label" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="personalNumber_label" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="surname_label" xml:space="preserve">
+    <value>Surname</value>
+  </data>
   <data name="title" xml:space="preserve">
     <value>Home Page</value>
   </data>

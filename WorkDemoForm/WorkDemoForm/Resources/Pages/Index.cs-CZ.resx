@@ -117,6 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="dateOfBirth_label" xml:space="preserve">
+    <value>Datum narození</value>
+  </data>
+  <data name="email_label" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="error_text" xml:space="preserve">
+    <value>Během zpracování požadavku došlo k neočekávané chybě.</value>
+  </data>
+  <data name="gender_label" xml:space="preserve">
+    <value>Pohlaví</value>
+  </data>
+  <data name="name_label" xml:space="preserve">
+    <value>Jméno</value>
+  </data>
+  <data name="nationality_label" xml:space="preserve">
+    <value>Státní příslušnost</value>
+  </data>
+  <data name="personalNumber_label" xml:space="preserve">
+    <value>Rodné číslo</value>
+  </data>
+  <data name="submit" xml:space="preserve">
+    <value>Odeslat</value>
+  </data>
+  <data name="surname_label" xml:space="preserve">
+    <value>Příjmení</value>
+  </data>
   <data name="title" xml:space="preserve">
     <value>Domovská stránka</value>
   </data>
